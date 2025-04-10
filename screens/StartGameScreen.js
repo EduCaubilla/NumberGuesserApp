@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { TextInput, View, StyleSheet, Alert, Text } from "react-native";
+import { TextInput, View, StyleSheet, Alert } from "react-native";
 
 import PrimaryButton from "../components/ui/PrimaryButton";
 import AppColors from "../constants/app-colors";
@@ -63,8 +63,7 @@ export default StartGameScreen;
 const styles = StyleSheet.create({
   rootContainer: {
     flex: 1,
-    marginTop: 100,
-    alignItems: "center"
+    marginTop: 100
   },
   numberInput: {
     height: 50,
@@ -75,13 +74,12 @@ const styles = StyleSheet.create({
     color: AppColors.secondary700,
     marginVertical: 10,
     fontWeight: "bold",
-    textAlign: "center",
-    alignItems: "center",
+    textAlign: "center"
   },
   buttonsContainer: {
     flexDirection: "row",
   },
   button: {
-    flex: 1,
+    flex: 1
   },
 });

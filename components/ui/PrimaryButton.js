@@ -38,8 +38,9 @@ const styles = StyleSheet.create({
     padding: 15,
   },
   buttonText: {
+    fontFamily: "open-sans",
     color: AppColors.secondary200,
-    fontSize: 16,
+    fontSize: 20,
     textAlign: "center",
   },
   pressed: {

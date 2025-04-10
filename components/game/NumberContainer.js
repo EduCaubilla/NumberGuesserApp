@@ -16,15 +16,16 @@ const styles = StyleSheet.create({
     container: {
         borderWidth: 3,
         borderColor: AppColors.primary500,
-        marginTop:15,
-        padding: 25,
+        marginTop: 15,
+        marginHorizontal: 20,
+        padding: 15,
         borderRadius: 10,
         alignItems: "center",
         justifyContent: "center"
     },
     text: {
         color: AppColors.primary500,
-        fontSize: 60,
-        fontWeight: "bold"
+        fontSize: 50,
+        fontFamily: "open-sans-bold",
     }
 });
